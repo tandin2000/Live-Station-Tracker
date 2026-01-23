@@ -1,0 +1,1356 @@
+{
+  "data": {
+    "sessions": [
+      {
+        "id": "4e7dff8e-ec4f-11f0-aebc-0242ac110002",
+        "dateTime": "2026-01-23T01:30:00Z",
+        "workStation": 9,
+        "step": 11,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-08T05:03:01Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "01088aea-dc3c-11ec-961f-0242ac110003",
+          "name": "Base"
+        },
+        "mission": {
+          "id": "2a576a3c-baa2-11ec-8e93-0242ac110002",
+          "title": "Inventing Vehicles"
+        },
+        "apprentice": {
+          "firstName": "Franklin J",
+          "lastName": "Deng"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "8da0241f-efe4-11f0-ade0-0242ac110002",
+        "dateTime": "2026-01-23T01:30:00Z",
+        "workStation": 8,
+        "step": 4,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-12T18:28:55Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "9595087c-c701-11eb-9f04-0242ac110002",
+          "name": "Making an Arcade Game"
+        },
+        "mission": {
+          "id": "fe34540f-b7c6-11ed-89e7-0242ac110003",
+          "title": "Coding with Microcontrollers (micro:bit)"
+        },
+        "apprentice": {
+          "firstName": "Ryder",
+          "lastName": "Fang"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "2f4486e8-e811-11f0-84ca-0242ac110002",
+        "dateTime": "2026-01-23T01:30:00Z",
+        "workStation": 7,
+        "step": 3,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-02T19:28:15Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "e60cfd3c-6502-11eb-a92e-0242ac110003",
+          "name": "Let's Add More Characters"
+        },
+        "mission": {
+          "id": "9e49006e-4a35-11eb-a064-0242ac110002",
+          "title": "Coding Games"
+        },
+        "apprentice": {
+          "firstName": "Vyom",
+          "lastName": "Bhavsar"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "2d56c9af-b54c-11f0-9e7f-0242ac110002",
+        "dateTime": "2026-01-23T01:15:00Z",
+        "workStation": 2,
+        "step": 15,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2025-10-30T04:52:03Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "ae4de830-7e52-11ec-8ee5-0242ac110002",
+          "name": "Alien Life Swimmer"
+        },
+        "mission": {
+          "id": "00f080c3-56fa-11ec-a4bf-0242ac110002",
+          "title": "Advancing With Vex Robotics"
+        },
+        "apprentice": {
+          "firstName": "Eli",
+          "lastName": "Cheung"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "f714655e-f4fd-11f0-9e98-0242ac110002",
+        "dateTime": "2026-01-23T01:15:00Z",
+        "workStation": 14,
+        "step": 6,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-19T06:13:25Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "86f48276-6d2d-11ec-8322-0242ac110002",
+          "name": "Sparklers"
+        },
+        "mission": {
+          "id": "a4fc56d3-ee3d-11ea-b86d-0242ac110003",
+          "title": "Special Effects"
+        },
+        "apprentice": {
+          "firstName": "Aiden",
+          "lastName": "Galperin"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "555acb79-f7f7-11f0-8f5f-0242ac110002",
+        "dateTime": "2026-01-23T01:00:04Z",
+        "workStation": 11,
+        "step": 1,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-23T01:03:30Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "5dc6a21f-c93f-11eb-9f04-0242ac110002",
+          "name": "Playground TinkerCAD"
+        },
+        "mission": {
+          "id": "de678c66-ee3a-11ea-b86d-0242ac110003",
+          "title": "Foundations in Concept Development"
+        },
+        "apprentice": {
+          "firstName": "Alvin",
+          "lastName": "Xie"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "6b663a90-f49f-11f0-ae9c-0242ac110003",
+        "dateTime": "2026-01-23T01:00:00Z",
+        "workStation": 13,
+        "step": 7,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-18T18:56:38Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "0cacce4f-212b-11ee-88e4-0242ac110002",
+          "name": "Kaleidoscope "
+        },
+        "mission": {
+          "id": "23be0659-211a-11ee-88e4-0242ac110002",
+          "title": "Lights, Mirrors and Colours"
+        },
+        "apprentice": {
+          "firstName": "Charlie",
+          "lastName": "Zhou"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "35f29a97-f3ea-11f0-8162-0242ac110003",
+        "dateTime": "2026-01-23T01:00:00Z",
+        "workStation": 6,
+        "step": 18,
+        "sessionType": "DIRECTED",
+        "minutes": 120,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-17T21:19:30Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "3ef18773-3033-11ec-afb7-0242ac110002",
+          "name": "Animated Butterfly"
+        },
+        "mission": {
+          "id": "46e2fb40-4a0d-11eb-a064-0242ac110002",
+          "title": "Intro to Digital Arts"
+        },
+        "apprentice": {
+          "firstName": "Eric",
+          "lastName": "Wang"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "2bbe239e-f58b-11f0-b040-0242ac110002",
+        "dateTime": "2026-01-23T01:00:00Z",
+        "workStation": 15,
+        "step": 13,
+        "sessionType": "DIRECTED",
+        "minutes": 120,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-19T23:04:13Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "3cfd2600-f93f-11eb-bf4c-0242ac110003",
+          "name": "Understanding Circuit Diagrams"
+        },
+        "mission": {
+          "id": "0ea6c7b7-5d8a-11ea-9230-0242ac110003",
+          "title": "Intro to Electronics"
+        },
+        "apprentice": {
+          "firstName": "Boaz",
+          "lastName": "Phu"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "85fbfb8f-df6b-11f0-8cbc-0242ac110002",
+        "dateTime": "2026-01-23T01:00:00Z",
+        "workStation": 5,
+        "step": 9,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2025-12-22T19:22:15Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "754603d0-d165-11ec-b260-0242ac110002",
+          "name": "Free Play"
+        },
+        "mission": {
+          "id": "a9901d48-c1be-11ec-b884-0242ac110003",
+          "title": "Building in 3D"
+        },
+        "apprentice": {
+          "firstName": "Benjamin",
+          "lastName": "Hazama"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "f4ea1ed4-eeb5-11f0-bf64-0242ac110002",
+        "dateTime": "2026-01-23T00:45:00Z",
+        "workStation": 10,
+        "step": 3,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-11T06:22:51Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "59dff2ad-386a-11ee-ac18-0242ac110003",
+          "name": "Pantograph"
+        },
+        "mission": {
+          "id": "ccea67e3-4a31-11eb-a064-0242ac110002",
+          "title": "Mastering Simple Machines"
+        },
+        "apprentice": {
+          "firstName": "Stella ",
+          "lastName": "Li"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "bda65c98-a519-11f0-aded-0242ac110002",
+        "dateTime": "2026-01-23T00:45:00Z",
+        "workStation": 1,
+        "step": 5,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2025-10-09T14:10:42Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "2d7f569f-dc3c-11ec-961f-0242ac110003",
+          "name": "Ramps and Angles"
+        },
+        "mission": {
+          "id": "2a576a3c-baa2-11ec-8e93-0242ac110002",
+          "title": "Inventing Vehicles"
+        },
+        "apprentice": {
+          "firstName": "Lincoln",
+          "lastName": "Cheong"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "2f58bb61-f19d-11f0-84bd-0242ac110002",
+        "dateTime": "2026-01-23T00:45:00Z",
+        "workStation": 18,
+        "step": 6,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-14T23:03:05Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "4219f525-2e24-11ed-9471-0242ac110003",
+          "name": "Hand Fan"
+        },
+        "mission": {
+          "id": "56d035bb-2e04-11ed-9471-0242ac110003",
+          "title": "Not-So Simple Machines"
+        },
+        "apprentice": {
+          "firstName": "Alexis",
+          "lastName": "Yeung"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "6da3464b-ef73-11f0-a645-0242ac110002",
+        "dateTime": "2026-01-23T00:45:00Z",
+        "workStation": 12,
+        "step": 6,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-12T04:59:08Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "089c1ad3-1c65-11ee-9e38-0242ac110003",
+          "name": "Kazoo"
+        },
+        "mission": {
+          "id": "be85adcb-1c64-11ee-9e38-0242ac110003",
+          "title": "Getting Creative"
+        },
+        "apprentice": {
+          "firstName": "Ervin",
+          "lastName": "You"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "b3532d2b-e77a-11f0-899e-0242ac110002",
+        "dateTime": "2026-01-23T00:30:00Z",
+        "workStation": 17,
+        "step": null,
+        "sessionType": "DROPIN",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-02T01:31:02Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "e815a477-d6c6-11f0-b8d5-0242ac110002",
+          "name": "Empty Default Project"
+        },
+        "mission": {
+          "id": "cc5ff04f-d6c6-11f0-b394-0242ac110002",
+          "title": "Empty Default Mission"
+        },
+        "apprentice": {
+          "firstName": "Jamie",
+          "lastName": "Tam"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "843b46ea-ec47-11f0-af07-0242ac110002",
+        "dateTime": "2026-01-23T00:30:00Z",
+        "workStation": 23,
+        "step": 6,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-08T04:07:15Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "01088aea-dc3c-11ec-961f-0242ac110003",
+          "name": "Base"
+        },
+        "mission": {
+          "id": "2a576a3c-baa2-11ec-8e93-0242ac110002",
+          "title": "Inventing Vehicles"
+        },
+        "apprentice": {
+          "firstName": "ZeXi(Jessie)",
+          "lastName": "Zhao"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "56a733d9-eda9-11f0-84ed-0242ac110002",
+        "dateTime": "2026-01-23T00:30:00Z",
+        "workStation": 24,
+        "step": 6,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "IN_PROGRESS",
+        "createdAt": "2026-01-09T22:20:00Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "754603d0-d165-11ec-b260-0242ac110002",
+          "name": "Free Play"
+        },
+        "mission": {
+          "id": "a9901d48-c1be-11ec-b884-0242ac110003",
+          "title": "Building in 3D"
+        },
+        "apprentice": {
+          "firstName": "Lucas",
+          "lastName": "Kan"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "37e7f753-e7b0-11f0-9443-0242ac110002",
+        "dateTime": "2026-01-23T00:30:00Z",
+        "workStation": 20,
+        "step": 16,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "SCHEDULED",
+        "createdAt": "2026-01-02T07:54:08Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "95222597-0d7b-11ed-911d-0242ac110003",
+          "name": "Fulcrums and Flingers"
+        },
+        "mission": {
+          "id": "9896a2bb-0940-11ed-911d-0242ac110003",
+          "title": "Intro to Simple Machines"
+        },
+        "apprentice": {
+          "firstName": "Ethan",
+          "lastName": "Chen"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "b7c7e0f2-dad6-11f0-a65c-0242ac110002",
+        "dateTime": "2026-01-23T00:30:00Z",
+        "workStation": 16,
+        "step": 11,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-16T23:26:58Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "68fdbcdc-2e24-11ed-9471-0242ac110003",
+          "name": "Voladores de Papantla"
+        },
+        "mission": {
+          "id": "56d035bb-2e04-11ed-9471-0242ac110003",
+          "title": "Not-So Simple Machines"
+        },
+        "apprentice": {
+          "firstName": "Kristen",
+          "lastName": "Diaz"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "35e3d1a7-e7a1-11f0-9303-0242ac110002",
+        "dateTime": "2026-01-23T00:15:00Z",
+        "workStation": 19,
+        "step": 9,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-02T06:06:42Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "e03bd4b9-57b5-11ec-a4bf-0242ac110002",
+          "name": "Collect"
+        },
+        "mission": {
+          "id": "8524aff7-4127-11ec-b65f-0242ac110002",
+          "title": "Intro to Computing (Vex Robotics)"
+        },
+        "apprentice": {
+          "firstName": "Liam",
+          "lastName": "Wu"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "044fed0d-d0c6-11f0-9dc3-0242ac110002",
+        "dateTime": "2026-01-23T00:15:00Z",
+        "workStation": 4,
+        "step": 4,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-04T04:02:14Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "b29bdfab-1ee7-11ee-8111-0242ac110002",
+          "name": "Magnet Fishing"
+        },
+        "mission": {
+          "id": "b5aaa6fc-1ce0-11ee-8111-0242ac110002",
+          "title": "Sea and Sky"
+        },
+        "apprentice": {
+          "firstName": "Neal",
+          "lastName": "Cheng"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "fcfa9908-e99f-11f0-8bc9-0242ac110002",
+        "dateTime": "2026-01-23T00:15:00Z",
+        "workStation": 22,
+        "step": 12,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-04T19:03:00Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "4a68bd49-6503-11eb-a92e-0242ac110003",
+          "name": "How Do You Start and Stop"
+        },
+        "mission": {
+          "id": "9e49006e-4a35-11eb-a064-0242ac110002",
+          "title": "Coding Games"
+        },
+        "apprentice": {
+          "firstName": "Flynn",
+          "lastName": "Ding"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "e74ea265-d0c5-11f0-9dc3-0242ac110002",
+        "dateTime": "2026-01-23T00:15:00Z",
+        "workStation": 2,
+        "step": 7,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-04T04:01:25Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "8dc63f3a-179e-11ed-925f-0242ac110002",
+          "name": "Trusty Triangles"
+        },
+        "mission": {
+          "id": "f4a7537c-179d-11ed-925f-0242ac110002",
+          "title": "Intro to Engineering"
+        },
+        "apprentice": {
+          "firstName": "Noah",
+          "lastName": "Cheng"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "7fbfb251-e5fb-11f0-b135-0242ac110002",
+        "dateTime": "2026-01-23T00:15:00Z",
+        "workStation": 14,
+        "step": 13,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-31T03:47:59Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "aaa3b992-1c5c-11ed-925f-0242ac110002",
+          "name": "Build a Crane"
+        },
+        "mission": {
+          "id": "f4a7537c-179d-11ed-925f-0242ac110002",
+          "title": "Intro to Engineering"
+        },
+        "apprentice": {
+          "firstName": "Lucas",
+          "lastName": "Zhu"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "60c1e6b1-e51e-11f0-a12e-0242ac110002",
+        "dateTime": "2026-01-23T00:00:00Z",
+        "workStation": 13,
+        "step": 4,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-30T01:25:08Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "c0a1aad8-1c5c-11ed-925f-0242ac110002",
+          "name": "Balance Forces"
+        },
+        "mission": {
+          "id": "f4a7537c-179d-11ed-925f-0242ac110002",
+          "title": "Intro to Engineering"
+        },
+        "apprentice": {
+          "firstName": "Bryant",
+          "lastName": "Tam"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "3eb3f8fd-c0c9-11f0-bb59-0242ac110002",
+        "dateTime": "2026-01-23T00:00:00Z",
+        "workStation": 7,
+        "step": 12,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2025-11-13T19:45:02Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "07c13dc7-b494-11ec-b9d7-0242ac110002",
+          "name": "Start Screen"
+        },
+        "mission": {
+          "id": "b3f01e4c-ee3d-11ea-b86d-0242ac110003",
+          "title": "Graphics for Games"
+        },
+        "apprentice": {
+          "firstName": "Esther",
+          "lastName": "Tam"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "1100670a-f291-11f0-9db5-0242ac110004",
+        "dateTime": "2026-01-23T00:00:00Z",
+        "workStation": 11,
+        "step": 13,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-16T04:08:51Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "12b546b9-f93f-11eb-bf4c-0242ac110003",
+          "name": "Build a Flashlight"
+        },
+        "mission": {
+          "id": "0ea6c7b7-5d8a-11ea-9230-0242ac110003",
+          "title": "Intro to Electronics"
+        },
+        "apprentice": {
+          "firstName": "Vince",
+          "lastName": "Sit"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "33ff7765-d963-11f0-9e6e-0242ac110002",
+        "dateTime": "2026-01-22T23:30:00Z",
+        "workStation": 8,
+        "step": 5,
+        "sessionType": "DROPIN",
+        "minutes": 120,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-15T03:07:34Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "a4a0fdf7-e158-11ec-961f-0242ac110003",
+          "name": "Finishing Touches"
+        },
+        "mission": {
+          "id": "2b015ff8-ee3b-11ea-b86d-0242ac110003",
+          "title": "Designing in 3D"
+        },
+        "apprentice": {
+          "firstName": "Terry",
+          "lastName": "Zhang"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "8be4751f-f34d-11f0-822d-0242ac110002",
+        "dateTime": "2026-01-22T23:30:00Z",
+        "workStation": 21,
+        "step": 11,
+        "sessionType": "DIRECTED",
+        "minutes": 120,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-17T02:38:03Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "10e936d2-2b1f-11ec-b9b1-0242ac110002",
+          "name": "Still Life"
+        },
+        "mission": {
+          "id": "46e2fb40-4a0d-11eb-a064-0242ac110002",
+          "title": "Intro to Digital Arts"
+        },
+        "apprentice": {
+          "firstName": "Lucas",
+          "lastName": "Fu"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "58d902db-d651-11f0-b423-0242ac110002",
+        "dateTime": "2026-01-22T23:30:00Z",
+        "workStation": 6,
+        "step": 11,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-11T05:22:11Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "2875fbb6-f93f-11eb-bf4c-0242ac110003",
+          "name": "Parallel Circuits"
+        },
+        "mission": {
+          "id": "0ea6c7b7-5d8a-11ea-9230-0242ac110003",
+          "title": "Intro to Electronics"
+        },
+        "apprentice": {
+          "firstName": "Jolie ",
+          "lastName": "Wong"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "317c2b10-d6e6-11f0-b8d5-0242ac110002",
+        "dateTime": "2026-01-22T23:30:00Z",
+        "workStation": 3,
+        "step": 11,
+        "sessionType": "DIRECTED",
+        "minutes": 120,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-11T23:07:40Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "c0a1aad8-1c5c-11ed-925f-0242ac110002",
+          "name": "Balance Forces"
+        },
+        "mission": {
+          "id": "f4a7537c-179d-11ed-925f-0242ac110002",
+          "title": "Intro to Engineering"
+        },
+        "apprentice": {
+          "firstName": "Adam",
+          "lastName": "Zhu"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "9816227f-e66a-11f0-9443-0242ac110002",
+        "dateTime": "2026-01-22T23:30:00Z",
+        "workStation": 15,
+        "step": 6,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-31T17:03:14Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "c0ca6f0b-4394-11ed-9850-0242ac110003",
+          "name": "Final Cut! "
+        },
+        "mission": {
+          "id": "d0fe0967-ee3d-11ea-b86d-0242ac110003",
+          "title": "Stop Motion Movie Maker"
+        },
+        "apprentice": {
+          "firstName": "Jiwon",
+          "lastName": "Park"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "eb6b6dae-d650-11f0-a2e6-0242ac110002",
+        "dateTime": "2026-01-22T23:30:00Z",
+        "workStation": 5,
+        "step": 19,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-11T05:19:08Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "b475be72-c701-11eb-9f04-0242ac110002",
+          "name": "Tilt and Collect"
+        },
+        "mission": {
+          "id": "fe34540f-b7c6-11ed-89e7-0242ac110003",
+          "title": "Coding with Microcontrollers (micro:bit)"
+        },
+        "apprentice": {
+          "firstName": "Vegas",
+          "lastName": "Wong"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "ab368224-e26d-11f0-980b-0242ac110002",
+        "dateTime": "2026-01-22T23:15:00Z",
+        "workStation": 12,
+        "step": 1,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-26T15:15:10Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "fce9bbd2-b755-11ec-adaa-0242ac110002",
+          "name": "Counting Points"
+        },
+        "mission": {
+          "id": "b3f01e4c-ee3d-11ea-b86d-0242ac110003",
+          "title": "Graphics for Games"
+        },
+        "apprentice": {
+          "firstName": "Thomas",
+          "lastName": "Olson"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "fdd51eb4-f5c2-11f0-8162-0242ac110003",
+        "dateTime": "2026-01-22T23:15:00Z",
+        "workStation": 2,
+        "step": null,
+        "sessionType": "DROPIN",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-20T05:43:47Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "e815a477-d6c6-11f0-b8d5-0242ac110002",
+          "name": "Empty Default Project"
+        },
+        "mission": {
+          "id": "cc5ff04f-d6c6-11f0-b394-0242ac110002",
+          "title": "Empty Default Mission"
+        },
+        "apprentice": {
+          "firstName": "Mingming",
+          "lastName": "Sun"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "b41413db-de02-11f0-9d8b-0242ac110002",
+        "dateTime": "2026-01-22T23:15:00Z",
+        "workStation": 10,
+        "step": 1,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-21T00:19:24Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "3ef18773-3033-11ec-afb7-0242ac110002",
+          "name": "Animated Butterfly"
+        },
+        "mission": {
+          "id": "46e2fb40-4a0d-11eb-a064-0242ac110002",
+          "title": "Intro to Digital Arts"
+        },
+        "apprentice": {
+          "firstName": "Charlie",
+          "lastName": "Chou"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "924b6c90-d0ab-11f0-b100-0242ac110002",
+        "dateTime": "2026-01-22T23:15:00Z",
+        "workStation": 1,
+        "step": 16,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "NO_SHOW",
+        "createdAt": "2025-12-04T00:52:56Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "2875fbb6-f93f-11eb-bf4c-0242ac110003",
+          "name": "Parallel Circuits"
+        },
+        "mission": {
+          "id": "0ea6c7b7-5d8a-11ea-9230-0242ac110003",
+          "title": "Intro to Electronics"
+        },
+        "apprentice": {
+          "firstName": "Harry ",
+          "lastName": "Zhu"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "771c4cb0-e759-11f0-836e-0242ac110002",
+        "dateTime": "2026-01-22T23:15:00Z",
+        "workStation": 18,
+        "step": 11,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-01T21:33:08Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "66638417-1c5c-11ed-925f-0242ac110002",
+          "name": "High-wire"
+        },
+        "mission": {
+          "id": "f4a7537c-179d-11ed-925f-0242ac110002",
+          "title": "Intro to Engineering"
+        },
+        "apprentice": {
+          "firstName": "Jerome",
+          "lastName": "Mok"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "09278332-e6c3-11f0-9443-0242ac110002",
+        "dateTime": "2026-01-22T23:00:00Z",
+        "workStation": 17,
+        "step": 12,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-01T03:36:19Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "8bb44a05-2e24-11ed-9471-0242ac110003",
+          "name": "Marble Run"
+        },
+        "mission": {
+          "id": "56d035bb-2e04-11ed-9471-0242ac110003",
+          "title": "Not-So Simple Machines"
+        },
+        "apprentice": {
+          "firstName": "Darren",
+          "lastName": "Wu"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "2ef20951-ec1f-11f0-95b9-0242ac110002",
+        "dateTime": "2026-01-22T23:00:00Z",
+        "workStation": 24,
+        "step": 7,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-07T23:18:32Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "549e1b56-cb1f-11ec-afb4-0242ac110002",
+          "name": "3D Design - Your First Model"
+        },
+        "mission": {
+          "id": "fc5046d3-5bcd-11ec-85e4-0242ac110003",
+          "title": "Intro to Fabrication"
+        },
+        "apprentice": {
+          "firstName": "Han",
+          "lastName": "Kim"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "09f2d8fe-dd04-11f0-a1c0-0242ac110003",
+        "dateTime": "2026-01-22T23:00:00Z",
+        "workStation": 9,
+        "step": 6,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-19T17:56:26Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "f3e74904-15e3-11ed-925f-0242ac110002",
+          "name": "Pulley Pulling"
+        },
+        "mission": {
+          "id": "9896a2bb-0940-11ed-911d-0242ac110003",
+          "title": "Intro to Simple Machines"
+        },
+        "apprentice": {
+          "firstName": "Jayden ",
+          "lastName": "Jian"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "1ab15e10-eb08-11f0-acb1-0242ac110002",
+        "dateTime": "2026-01-22T23:00:00Z",
+        "workStation": 23,
+        "step": 15,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-06T14:00:48Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "ff2515be-6502-11eb-a92e-0242ac110003",
+          "name": "Make a Super Hero"
+        },
+        "mission": {
+          "id": "9e49006e-4a35-11eb-a064-0242ac110002",
+          "title": "Coding Games"
+        },
+        "apprentice": {
+          "firstName": "Miranda",
+          "lastName": "Ma"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "022b4e19-e8d5-11f0-b4a2-0242ac110002",
+        "dateTime": "2026-01-22T23:00:00Z",
+        "workStation": 20,
+        "step": 4,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2026-01-03T18:50:01Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "aaa3b992-1c5c-11ed-925f-0242ac110002",
+          "name": "Build a Crane"
+        },
+        "mission": {
+          "id": "f4a7537c-179d-11ed-925f-0242ac110002",
+          "title": "Intro to Engineering"
+        },
+        "apprentice": {
+          "firstName": "James",
+          "lastName": "Zhang"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "9c330e85-d77c-11f0-8303-0242ac110002",
+        "dateTime": "2026-01-22T23:00:00Z",
+        "workStation": 11,
+        "step": 5,
+        "sessionType": "DIRECTED",
+        "minutes": 60,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-12T17:04:24Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "cd27329a-6d1a-11ee-a25c-0242ac110002",
+          "name": "Pop-up Card"
+        },
+        "mission": {
+          "id": "62d33159-6c96-11ee-bad0-0242ac110005",
+          "title": "Up, Up and Away"
+        },
+        "apprentice": {
+          "firstName": "Henry",
+          "lastName": "Miao"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      },
+      {
+        "id": "f0a6a672-e698-11f0-8b16-0242ac110002",
+        "dateTime": "2026-01-22T23:00:00Z",
+        "workStation": 16,
+        "step": 17,
+        "sessionType": "DIRECTED",
+        "minutes": 90,
+        "status": "COMPLETED",
+        "createdAt": "2025-12-31T22:34:59Z",
+        "location": {
+          "id": "9bce8e80-2a20-11eb-9946-0242ac110002",
+          "name": "Primary"
+        },
+        "project": {
+          "id": "75d86b9c-7454-11ec-aca7-0242ac110002",
+          "name": "Water Fountain"
+        },
+        "mission": {
+          "id": "a4fc56d3-ee3d-11ea-b86d-0242ac110003",
+          "title": "Special Effects"
+        },
+        "apprentice": {
+          "firstName": "Jayden ",
+          "lastName": "Huang"
+        },
+        "facilitator": {
+          "firstName": "Unknown",
+          "lastName": ""
+        }
+      }
+    ]
+  }
+}

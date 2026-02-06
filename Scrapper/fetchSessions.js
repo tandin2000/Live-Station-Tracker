@@ -3,6 +3,7 @@ const fs = require("fs");
 
 const ORG_ID = process.env.ORG_ID;
 const IDENTOJI_TOKEN = process.env.IDENTOJI_TOKEN;
+const AUTHOJI_COOKIE = process.env.AUTHOJI_COOKIE;
 const DATA_PATH = process.env.DATA_PATH || "../data.json";
 
 function getTodayRangeLocal() {
@@ -22,12 +23,13 @@ function getTodayRangeLocal() {
 async function fetchAndSaveSessions() {
   const { from, to } = getTodayRangeLocal();
 
-
   const res = await fetch("https://api.steamoji.com/query", {
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
-      "Authorization": `identoji ${IDENTOJI_TOKEN}`
+    "Content-Type": "application/json",
+    "Authorization": `identoji ${IDENTOJI_TOKEN}`,
+    "Cookie": `authoji=${AUTHOJI_COOKIE}`,
+    "Origin": "https://dashboard.steamoji.com"
     },
     body: JSON.stringify({
       operationName: "Sessions",
@@ -84,9 +86,12 @@ async function fetchAndSaveSessions() {
     })
   });
 
-  const json = await res.json();
-  const sessions = json?.data?.sessions ?? [];
 
+
+
+  const json = await res.json();
+  console.log(json)
+  const sessions = json?.data?.sessions ?? [];
   const payload = {
     data: {
       sessions

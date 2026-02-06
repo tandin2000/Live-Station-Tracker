@@ -2,15 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Station Tracker</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+ 
+<div class="header-bar">
+  <h1>Live Station Tracker <span id="currentTime"></span></h1>
+  <div class="header-controls">
+    <div class="layout-toggle">
+      <button class="layout-btn active" data-layout="1">Layout 1</button>
+      <button class="layout-btn" data-layout="2">Layout 2</button>
+    </div>
+    <button id="searchToggle" class="search-toggle-btn" aria-label="Toggle Search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+    </button>
+  </div>
+</div>
 
-<h1>Live Station Tracker</h1>
-
-<div id="searchBox">
-  <input id="searchInput" placeholder="Search kid name..." />
+<div id="searchBox" class="search-box-hidden">
+  <div class="search-wrapper">
+    <input id="searchInput" placeholder="Search kid name..." />
+    <button id="searchButton" aria-label="Search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+    </button>
+  </div>
   <div id="searchResult"></div>
 </div>
 
@@ -18,7 +44,7 @@
 <div id="stations">
 
   <div class="station">
-    <h2>Station 1</h2>
+    <h2>Zone 1</h2>
     <div class="grid grid-3x2">
       <div class="seat" data-seat="1"></div>
       <div class="seat" data-seat="2"></div>
@@ -30,7 +56,7 @@
   </div>
 
   <div class="station">
-    <h2>Station 2</h2>
+    <h2>Zone 2</h2>
     <div class="grid grid-3x2">
       <div class="seat" data-seat="5"></div>
       <div class="seat" data-seat="6"></div>
@@ -42,7 +68,7 @@
   </div>
 
   <div class="station">
-    <h2>Station 3</h2>
+    <h2>Zone 3</h2>
     <div class="grid grid-3x2">
       <div class="seat" data-seat="9"></div>
       <div class="seat" data-seat="10"></div>
@@ -54,7 +80,7 @@
   </div>
 
   <div class="station">
-    <h2>Station 4</h2>
+    <h2>Zone 4</h2>
     <div class="grid grid-4x2">
       <div class="seat" data-seat="7"></div>
       <div class="seat" data-seat="8"></div>

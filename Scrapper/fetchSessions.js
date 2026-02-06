@@ -90,7 +90,6 @@ async function fetchAndSaveSessions() {
 
 
   const json = await res.json();
-  console.log(json)
   const sessions = json?.data?.sessions ?? [];
   const payload = {
     data: {
@@ -118,4 +117,4 @@ async function runJob() {
 
 runJob(); // run immediately once
 
-setInterval(runJob, 15 * 60 * 1000); // every 15 minutes
+setInterval(runJob, 10 * 60 * 1000); // every 15 minutes

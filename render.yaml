@@ -1,0 +1,9 @@
+# Render Blueprint – deploy as Static Site
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: handover-list
+    runtime: static
+    # Serve from repo root (index.html, app.js, styles.css, data.json)
+    staticPublishPath: .

@@ -83,10 +83,11 @@ function render() {
       // Determine ongoing color class:
       // Green: after start time (ongoing session)
       // Red: when 15 mins left to end
-      // Flashing red: when 5 mins left to end
+      // Last 5 mins: flashy red if artefactVideoURL empty, gray if has value
       let ongoingColorClass = "";
       if (minsLeft <= 5) {
-        ongoingColorClass = "ongoing-5-end"; // Flashing red when <=5 mins remaining
+        const hasArtefact = ongoingSession.artefactVideoURL && ongoingSession.artefactVideoURL.trim() !== "";
+        ongoingColorClass = hasArtefact ? "ongoing-5-end-done" : "ongoing-5-end"; // Gray if video done, else flashing red
       } else if (minsLeft <= 15) {
         ongoingColorClass = "ongoing-15-end"; // Red when 5-15 mins remaining (15 mins to end)
       } else {

@@ -332,6 +332,16 @@ h1 {
   color: rgba(255, 255, 255, 0.95);
 }
 
+/* Last 5 mins but artefactVideoURL has value = gray, not flashy */
+.ongoing-content.ongoing-5-end-done { 
+  background: linear-gradient(135deg, #616161 0%, #757575 100%);
+  color: white;
+}
+
+.ongoing-content.ongoing-5-end-done .ongoing-task {
+  color: rgba(255, 255, 255, 0.95);
+}
+
 @keyframes pulse {
   0%, 100% { box-shadow: 0 0 0 0 rgba(183, 28, 28, 0.4); }
   50% { box-shadow: 0 0 0 8px rgba(183, 28, 28, 0); }

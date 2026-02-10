@@ -19,18 +19,45 @@ function getTodayRangeLocal() {
   };
 }
 
+const API_HEADERS = {
+  "Content-Type": "application/json",
+  "Authorization": `identoji ${IDENTOJI_TOKEN}`,
+  "Cookie": `authoji=${AUTHOJI_COOKIE}`,
+  "Origin": "https://dashboard.steamoji.com"
+};
+
+/** Fetches workstationLogin and artefactVideoURL for a single session by ID */
+async function fetchSessionDetails(sessionId) {
+  const res = await fetch("https://api.steamoji.com/query", {
+    method: "POST",
+    headers: API_HEADERS,
+    body: JSON.stringify({
+      operationName: "Session",
+      query: `
+        query Session($sessionId: ID!) {
+          session(id: $sessionId) {
+            workstationLogin
+            artefactVideoURL
+          }
+        }
+      `,
+      variables: { sessionId }
+    })
+  });
+  const json = await res.json();
+  const session = json?.data?.session ?? {};
+  return {
+    workstationLogin: session.workstationLogin ?? null,
+    artefactVideoURL: session.artefactVideoURL ?? ""
+  };
+}
 
 async function fetchAndSaveSessions() {
   const { from, to } = getTodayRangeLocal();
 
   const res = await fetch("https://api.steamoji.com/query", {
     method: "POST",
-    headers: {
-    "Content-Type": "application/json",
-    "Authorization": `identoji ${IDENTOJI_TOKEN}`,
-    "Cookie": `authoji=${AUTHOJI_COOKIE}`,
-    "Origin": "https://dashboard.steamoji.com"
-    },
+    headers: API_HEADERS,
     body: JSON.stringify({
       operationName: "Sessions",
       query: `
@@ -91,11 +118,23 @@ async function fetchAndSaveSessions() {
 
   const json = await res.json();
   const sessions = json?.data?.sessions ?? [];
+
+  // Enrich each session with workstationLogin and artefactVideoURL from Session query
+  const enrichedSessions = await Promise.all(
+    sessions.map(async (session) => {
+      const details = await fetchSessionDetails(session.id).catch(() => ({
+        workstationLogin: null,
+        artefactVideoURL: ""
+      }));
+      return { ...session, ...details };
+    })
+  );
+
   const payload = {
     data: {
-      sessions
+      sessions: enrichedSessions
     }
-};
+  };
 
   fs.writeFileSync(
     DATA_PATH,
@@ -103,7 +142,7 @@ async function fetchAndSaveSessions() {
     "utf-8"
   );
 
-  console.log(`✅ data.json updated (${sessions.length} sessions)`);
+  console.log(`✅ data.json updated (${enrichedSessions.length} sessions)`);
 }
 
 
@@ -117,4 +156,4 @@ async function runJob() {
 
 runJob(); // run immediately once
 
-setInterval(runJob, 10 * 60 * 1000); // every 15 minutes
+setInterval(runJob, 5 * 60 * 1000); // every 5 minutes

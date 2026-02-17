@@ -19,14 +19,24 @@ function getTodayRangeLocal() {
   };
 }
 
+// const API_HEADERS = {
+//   "Content-Type": "application/json",
+//   "Authorization": `identoji ${IDENTOJI_TOKEN}`,
+//   "Cookie": `authoji=${AUTHOJI_COOKIE}`,
+//   "Origin": "https://dashboard.steamoji.com"
+// };
+
 const API_HEADERS = {
   "Content-Type": "application/json",
   "Authorization": `identoji ${IDENTOJI_TOKEN}`,
   "Cookie": `authoji=${AUTHOJI_COOKIE}`,
-  "Origin": "https://dashboard.steamoji.com"
+  "Origin": "https://dashboard.steamoji.com",
+  "Referer": "https://dashboard.steamoji.com/",
+  "User-Agent": "Mozilla/5.0"
 };
 
-/** Fetches workstationLogin and artefactVideoURL for a single session by ID */
+
+/** Fetches academyBadgeIn and artefactVideoURL for a single session by ID */
 async function fetchSessionDetails(sessionId) {
   const res = await fetch("https://api.steamoji.com/query", {
     method: "POST",
@@ -36,7 +46,7 @@ async function fetchSessionDetails(sessionId) {
       query: `
         query Session($sessionId: ID!) {
           session(id: $sessionId) {
-            workstationLogin
+            academyBadgeIn
             artefactVideoURL
           }
         }
@@ -47,7 +57,7 @@ async function fetchSessionDetails(sessionId) {
   const json = await res.json();
   const session = json?.data?.session ?? {};
   return {
-    workstationLogin: session.workstationLogin ?? null,
+    academyBadgeIn: session.academyBadgeIn ?? null,
     artefactVideoURL: session.artefactVideoURL ?? ""
   };
 }
@@ -117,13 +127,14 @@ async function fetchAndSaveSessions() {
 
 
   const json = await res.json();
+  
   const sessions = json?.data?.sessions ?? [];
 
-  // Enrich each session with workstationLogin and artefactVideoURL from Session query
+  // Enrich each session with academyBadgeIn and artefactVideoURL from Session query
   const enrichedSessions = await Promise.all(
     sessions.map(async (session) => {
       const details = await fetchSessionDetails(session.id).catch(() => ({
-        workstationLogin: null,
+        academyBadgeIn: null,
         artefactVideoURL: ""
       }));
       return { ...session, ...details };
@@ -156,4 +167,4 @@ async function runJob() {
 
 runJob(); // run immediately once
 
-setInterval(runJob, 5 * 60 * 1000); // every 5 minutes
+setInterval(runJob, 1 * 60 * 1000); // every 5 minutes
